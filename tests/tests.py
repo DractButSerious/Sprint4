@@ -1,21 +1,21 @@
 from enum import Enum
 
-from ...SonicProject.API.blizzard import Blizzard
 # Drink assets
-from .. import drinks
+from ..api.drinks import Drink
+from ..api.drinks import Size
 
 # Food assets
-from ..API.food import Food
-from ..API.food import Foods
-from ..API.food import Topping
+from ..api.food import Food
+from ..api.food import Foods
+from ..api.food import Topping
 
 # Blizzard assets
-from ..API.blizzard import Blizzard
-from ..API.blizzard import BlizzardFlavor
-from ..API.blizzard import BlizzardTopping
+from ..api.blizzard import Blizzard
+from ..api.blizzard import BlizzardFlavor
+from ..api.blizzard import BlizzardTopping
 
 # Order assets
-from ..API.orders import Order
+from ..api.orders import Order
 
 import unittest
 
